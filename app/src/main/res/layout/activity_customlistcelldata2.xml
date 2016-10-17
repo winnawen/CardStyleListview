@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.winna.cardstylelistview.customlistcelldata2">
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+    <Button
+        android:id="@+id/imgcon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/list_icon_head"
+        />
+
+    <TextView
+        android:id="@+id/tvname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="last blade"
+        android:textColor="#58c5c7"
+        android:layout_toRightOf="@+id/imgcon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/shareroad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分享足迹"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/tvname2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8月8日"
+        android:textSize="15sp"
+        android:layout_below="@+id/tvname2"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imgcon"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/tvnews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="have a good time!!!"
+        android:layout_below="@+id/tvdate"
+        android:layout_toRightOf="@+id/imgcon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+    <ImageButton
+        android:id="@+id/btncomment"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/home_icon_comment_white"
+        android:layout_below="@+id/tvnews"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="30dp"/>
+    <ImageButton
+        android:id="@+id/btnlike"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/home_icon_Praise_white"
+       android:layout_marginTop="30dp"
+        android:layout_marginLeft="210dp"
+        android:layout_below="@+id/tvnews"/>
+    <ImageButton
+        android:id="@+id/btnshare"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvnews"
+        android:layout_marginLeft="340dp"
+        android:background="@drawable/home_icon_share"
+        android:layout_marginTop="26dp"/>
+
+        <LinearLayout
+            android:layout_below="@+id/btnshare"
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:background="#CCCCCC"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"></LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_below="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/imgcon2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/list_icon_head"
+            />
+
+        <TextView
+            android:id="@+id/tvname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="last blade"
+            android:textColor="#58c5c7"
+            android:layout_toRightOf="@+id/imgcon2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/shareroad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享足迹"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/tvname3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tvdate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8月8日"
+            android:textSize="15sp"
+            android:layout_below="@+id/tvname3"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/imgcon2"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/tvnews2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="have a good time!!!"
+            android:layout_below="@+id/tvdate2"
+            android:layout_toRightOf="@+id/imgcon2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageButton
+            android:id="@+id/btncomment2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home_icon_comment_white"
+            android:layout_below="@+id/tvnews2"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="30dp"/>
+        <ImageButton
+            android:id="@+id/btnlike2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home_icon_Praise_white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@+id/tvnews2"/>
+        <ImageButton
+            android:id="@+id/btnshare2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tvnews2"
+            android:layout_marginLeft="340dp"
+            android:background="@drawable/home_icon_share"
+            android:layout_marginTop="26dp"/>
+
+        <LinearLayout
+            android:layout_below="@+id/btnshare2"
+            android:layout_width="350dp"
+            android:layout_height="2dp"
+            android:background="#CCCCCC"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"></LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
